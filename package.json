@@ -9,7 +9,6 @@
     "seed": "node -r dotenv/config ./scripts/seed.js",
     "start": "next start"
   },
-  "type": "commonjs",
   "dependencies": {
     "@heroicons/react": "^2.1.4",
     "@tailwindcss/forms": "^0.5.7",
