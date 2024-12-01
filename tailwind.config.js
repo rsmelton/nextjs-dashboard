@@ -1,3 +1,5 @@
+import formsPlugin from '@tailwindcss/forms';
+
 /** @type {import('tailwindcss').Config} */
 
 const config = {
@@ -27,7 +29,8 @@ const config = {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  // plugins: [require('@tailwindcss/forms')],
+  plugins: [formsPlugin],
 };
 
 export default config;
